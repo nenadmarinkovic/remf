@@ -9,7 +9,7 @@ import { CMS_NAME } from '../lib/constants'
 
 export default function Index({ posts, preview }) {
   const heroPost = posts[0]
-  const morePosts = posts.slice(1)
+  const morePosts = posts
   return (
     <>
       <Layout preview={preview}>
